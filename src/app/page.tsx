@@ -5,11 +5,8 @@ import Head from 'next/head';
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import ItemsContainer from "./ItemsContainer";
-import SocialIcons from "./SocialIcons";
-import { Icons } from "./Menus";
+
 import memoji from './image/memoji-removebg-preview.png'
-import webdev from './image/webdev.svg'
-import hero from './image/hero.webp'
 import { useState } from "react";
 
 export default function Home() {
@@ -117,7 +114,7 @@ export default function Home() {
       >
         <span>© 2024 Geraldo Saidina. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
-        <SocialIcons Icons={Icons} />
+        
         </div>
       </footer>
         </section>
