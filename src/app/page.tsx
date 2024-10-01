@@ -1,5 +1,6 @@
 "use client";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import Head from 'next/head';
 
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
@@ -28,9 +29,9 @@ export default function Home() {
   }
   return (
     <div className={darkMode ? "dark" : ""}>
-      <head>
+      <Head>
         <title>Geraldo Saidina's Portfolio</title>
-      </head>
+      </Head>
       <main className="font-sans text-black bg-white px-10 dark:bg-gray-900 dark:text-white md:px-20 lg:px-40">
         <section className=" min-h-screen dark:text-white">
           <nav className="py-10 mb-12 flex justify-between">
@@ -117,8 +118,8 @@ export default function Home() {
         <span>© 2024 Geraldo Saidina. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
         <SocialIcons Icons={Icons} />
-      </div>
-    </footer>
+        </div>
+      </footer>
         </section>
       </main>
       
