@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Geraldo Saidina's Portfolio</title>
+        <title>Geraldo Saidina&apos;s Portfolio</title>
       </Head>
       <main className="font-sans text-black bg-white px-10 dark:bg-gray-900 dark:text-white md:px-20 lg:px-40">
         <section className=" min-h-screen dark:text-white">
